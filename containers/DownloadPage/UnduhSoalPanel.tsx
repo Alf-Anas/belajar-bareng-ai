@@ -109,7 +109,7 @@ export default function UnduhSoalPanel({
                         className='bg-blue-100 rounded-lg'
                         size='small'
                     >
-                        {[10, 15, 25, 50].map((val) => (
+                        {[5, 10, 15, 25].map((val) => (
                             <MenuItem key={val} value={val}>
                                 {val}
                             </MenuItem>
