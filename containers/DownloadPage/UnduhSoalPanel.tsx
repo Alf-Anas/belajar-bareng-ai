@@ -33,7 +33,7 @@ export default function UnduhSoalPanel({
     const router = useRouter();
 
     async function onLoadHalaman() {
-        for (let i = 0; i <= PAGES_TO_CACHE.length; i++) {
+        for (let i = 0; i < PAGES_TO_CACHE.length; i++) {
             const iPage = PAGES_TO_CACHE[i];
             await new Promise((resolve) => {
                 const iframe = document.createElement('iframe');
