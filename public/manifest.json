@@ -1,0 +1,32 @@
+{
+    "short_name": "Belajar Bareng AI",
+    "name": "Belajar Bareng AI",
+    "description": "Belajar Bareng AI adalah aplikasi kuis pendidikan interaktif untuk siswa SD kelas 1 sampai 6. Ditenagai oleh kecerdasan buatan dari Azure AI, aplikasi ini menyediakan soal-soal yang disesuaikan dengan mata pelajaran dan tingkat kelas. Semua soal dapat disimpan secara offline untuk mendukung pembelajaran di wilayah 3T (Terdepan, Terluar, Tertinggal).",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#3B82F6",
+    "background_color": "#ffffff",
+    "id": "dev.geoit.belajar-bareng-ai",
+    "lang": "id",
+    "categories": ["health", "navigation", "utilities"],
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "img/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "img/icon512_rounded.png",
+            "type": "image/png"
+        }
+    ]
+}
