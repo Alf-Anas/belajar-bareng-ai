@@ -28,7 +28,7 @@ export default function UnduhSoalPanel({
     mata_pelajaran,
     topik,
 }: Props) {
-    const [jumlah, setJumlah] = useState(25);
+    const [jumlah, setJumlah] = useState(10);
     const [loading, setLoading] = useState(false);
     const router = useRouter();
 
@@ -85,7 +85,12 @@ export default function UnduhSoalPanel({
                 throw new Error(theOutput.message);
             }
         } catch (err) {
-            toast.error(errorResponse(err));
+            const resErr = errorResponse(err);
+            toast.error(
+                resErr == '{}'
+                    ? 'Gagal Mengunduh Soal. Harap Coba Lagi...'
+                    : resErr
+            );
         } finally {
             setLoading(false);
         }

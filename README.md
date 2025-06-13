@@ -32,7 +32,7 @@
 1. Clone repositori ini:
 
     ```bash
-    git clone https://github.com/your-username/belajar-bareng-ai.git
+    git clone https://github.com/Alf-Anas/belajar-bareng-ai.git
     cd belajar-bareng-ai
     ```
 
